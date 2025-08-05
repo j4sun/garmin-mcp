@@ -30,12 +30,12 @@ A Model Context Protocol (MCP) server that integrates with Garmin Connect to pro
 
 For security and convenience, you can store your Garmin Connect credentials in environment variables:
 
-1. **Copy the example file:**
+1. **Create a .env file:**
    ```bash
-   cp .env.example .env
+   touch .env
    ```
 
-2. **Edit the .env file with your credentials:**
+2. **Add your credentials to the .env file:**
    ```bash
    # .env
    GARMIN_USERNAME=your.email@example.com
