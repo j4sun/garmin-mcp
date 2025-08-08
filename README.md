@@ -71,6 +71,20 @@ Add the MCP server to your Claude Desktop configuration:
 }
 ```
 
+### Triathlon Expert Mode (Recommended)
+
+For the best coaching experience, add the triathlon expert prompt to your Claude project:
+
+1. **Create or open your project** in Claude Desktop
+2. **Add the expert prompt** by copying the contents of [`TRIATHLON_EXPERT_PROMPT.md`](TRIATHLON_EXPERT_PROMPT.md) to your project's context
+3. **Enable code execution** in your project settings for accurate calculations
+
+This prompt transforms Claude into a world-class triathlon coach that:
+- Uses code for all calculations to prevent estimation errors
+- Provides data-driven training insights
+- Offers personalized coaching based on your Garmin data
+- Analyzes performance trends with scientific accuracy
+
 ### Garmin Connect Authentication
 
 The MCP server supports multiple authentication methods:
